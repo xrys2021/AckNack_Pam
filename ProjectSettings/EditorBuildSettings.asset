@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NateTest.unity
+    guid: 9c6087f5d7019f5438c4b5a434ed0477
   m_configObjects: {}
