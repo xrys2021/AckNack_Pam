@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32496 MB
+OS: 'Windows 10 Home; OS build 19043.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 32496 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Projects/AckNack_Pam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57814
+55074
 Successfully changed project path to: C:/Projects/AckNack_Pam
 C:/Projects/AckNack_Pam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,178 +35,110 @@ Initialize mono
 Mono path[0] = 'C:/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002643 seconds.
+Registered in 0.002520 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  1.169 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000857 seconds.
+Registered in 0.000726 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
+- Completed reload, in  0.824 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
+System memory in use after: 58.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 1.766100 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.467200 ms  DeleteObjects: 0.100300 ms)
+Total: 1.813200 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.564200 ms  DeleteObjects: 0.081000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Button Blue 1.mat
-  artifactKey: Guid(d039561a0d242784196a9f282d2d2c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Button Blue 1.mat using Guid(d039561a0d242784196a9f282d2d2c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f7601caaeaae9792a58b571a19086c') in 0.101309 seconds
-  Import took 0.103212 seconds .
+  path: Assets/Prefabs
+  artifactKey: Guid(a4f54a4809abd7d47bc89557f1b4a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a4f54a4809abd7d47bc89557f1b4a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abffd252f7b6dbec8e64b297750fe31e') in 0.006582 seconds
+  Import took 0.008589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat
-  artifactKey: Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat using Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229a87ca67056b6d107df4de0af6f7e') in 0.010372 seconds
-  Import took 0.013072 seconds .
+  Time since last request: 202.459348 seconds.
+  path: Assets/CNModels
+  artifactKey: Guid(0e186b419122f01409983681e2833070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels using Guid(0e186b419122f01409983681e2833070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1ea9beec48bbbf6284e8958298636c') in 0.002697 seconds
+  Import took 0.005236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX
-  artifactKey: Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX using Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2770724fa347014566a3bc4af53317') in 0.082087 seconds
-  Import took 0.084042 seconds .
+  Time since last request: 159.031620 seconds.
+  path: Assets/CNModels/Cone.obj
+  artifactKey: Guid(10f915b947703614e92e2da6bd3bd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Cone.obj using Guid(10f915b947703614e92e2da6bd3bd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f8ffae1e98a3916cd7d546a7c2abb3') in 0.200968 seconds
+  Import took 0.202737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX
-  artifactKey: Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX using Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7b2f8913be22f23a39f799f7238823') in 0.013109 seconds
-  Import took 0.015434 seconds .
+  Time since last request: 33.171823 seconds.
+  path: Assets/CNModels/Cone.obj
+  artifactKey: Guid(10f915b947703614e92e2da6bd3bd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Cone.obj using Guid(10f915b947703614e92e2da6bd3bd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf534ccd57adc68e21c9c3104112980') in 0.019824 seconds
+  Import took 0.023303 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX
-  artifactKey: Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX using Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91356081b208ca4678cbea284dccf643') in 0.016323 seconds
-  Import took 0.018234 seconds .
+  Time since last request: 158.602968 seconds.
+  path: Assets/CNModels/Cone.prefab
+  artifactKey: Guid(99c1d6fd8a20cd7419e858ea6580d07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Cone.prefab using Guid(99c1d6fd8a20cd7419e858ea6580d07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f783608338632800bc158e7ec7464') in 0.014752 seconds
+  Import took 0.017916 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Button Blue.mat
-  artifactKey: Guid(11f4cd7516661214090022c23b90b537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Button Blue.mat using Guid(11f4cd7516661214090022c23b90b537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a79468557019a829e55a1473e5133fd') in 0.010228 seconds
-  Import took 0.012123 seconds .
+  Time since last request: 46.245238 seconds.
+  path: Assets/CNModels/Cone (1).prefab
+  artifactKey: Guid(a45db7f961c2e9e48a8fab374a3f6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Cone (1).prefab using Guid(a45db7f961c2e9e48a8fab374a3f6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd91be24e2932e38ec532c91fcce93f') in 0.008750 seconds
+  Import took 0.010811 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Water 01.FBX
-  artifactKey: Guid(d8be467a57b68b14583adbf3902c07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Water 01.FBX using Guid(d8be467a57b68b14583adbf3902c07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7471ce17c78feda3e82639cc007b05bd') in 0.036659 seconds
-  Import took 0.038692 seconds .
+  Time since last request: 34.142305 seconds.
+  path: Assets/CNModels/Cone (1).prefab
+  artifactKey: Guid(a45db7f961c2e9e48a8fab374a3f6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Cone (1).prefab using Guid(a45db7f961c2e9e48a8fab374a3f6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ffafe6802afb0465190f03542b48b') in 0.007714 seconds
+  Import took 0.009619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat
-  artifactKey: Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat using Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620fe37ac3beceb95a0e56275153ff9f') in 0.011484 seconds
-  Import took 0.013798 seconds .
+  Time since last request: 93.840422 seconds.
+  path: Assets/CNModels/Water 01 Variant.prefab
+  artifactKey: Guid(70230a9720f65d94fbcd84ba72068909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Water 01 Variant.prefab using Guid(70230a9720f65d94fbcd84ba72068909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b38823e734c3d4a6bef5e00f141f99a') in 0.012020 seconds
+  Import took 0.014033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Bridge 01.FBX
-  artifactKey: Guid(e5261c64b0b362240b00537d11bc82be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Bridge 01.FBX using Guid(e5261c64b0b362240b00537d11bc82be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8598cc7630501f51f5bbe440d516cd') in 0.017145 seconds
-  Import took 0.018932 seconds .
+  Time since last request: 10.457038 seconds.
+  path: Assets/CNModels/Wire.prefab
+  artifactKey: Guid(70230a9720f65d94fbcd84ba72068909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CNModels/Wire.prefab using Guid(70230a9720f65d94fbcd84ba72068909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a506197e734bee8bdb545b6231ebd6') in 0.010948 seconds
+  Import took 0.013266 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX
-  artifactKey: Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX using Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05edb73353ca383226f7775ed0165c0') in 0.016997 seconds
-  Import took 0.018894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 255.493970 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials
-  artifactKey: Guid(f79e057a4f7740848a9b8bdaeb363133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials using Guid(f79e057a4f7740848a9b8bdaeb363133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda80147bd3b2912cb5a25e5fb52dba1') in 0.003198 seconds
-  Import took 0.005454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.067906 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/Button Platform 01 Red.prefab
-  artifactKey: Guid(260a85a6c0f9d9043b33cbfab226e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/Button Platform 01 Red.prefab using Guid(260a85a6c0f9d9043b33cbfab226e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923598466338e76552d0a4bd13afc8ab') in 0.020793 seconds
-  Import took 0.023825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.931723 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/Trap 01.prefab
-  artifactKey: Guid(eb3f51c9e4e6faa45b78a8c2a6e0c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/Trap 01.prefab using Guid(eb3f51c9e4e6faa45b78a8c2a6e0c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d280f0fb6066650c40e7749f6692e9f') in 0.008650 seconds
-  Import took 0.012485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.858545 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/BigGrass.prefab
-  artifactKey: Guid(21ceda32be94b1c4e9773d3cada675f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs/BigGrass.prefab using Guid(21ceda32be94b1c4e9773d3cada675f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4da139c0b9c86da269cdfbfa6620eb9') in 0.009194 seconds
-  Import took 0.012397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.189358 seconds.
-  path: Assets/Materials/ColorPalette
-  artifactKey: Guid(f697440cc88fac64fb4d27caded1e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ColorPalette using Guid(f697440cc88fac64fb4d27caded1e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b28f2118c87be66420ad493376c2c46') in 0.002728 seconds
-  Import took 0.004924 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.879200 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.654800 ms  DeleteObjects: 0.042000 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
