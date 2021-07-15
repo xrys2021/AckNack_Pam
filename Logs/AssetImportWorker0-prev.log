@@ -1,337 +1,479 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 32674 MB
+OS: 'Windows 10 Home; OS build 19043.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 32496 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files (x86)\2020.3.9f1\Editor\Unity.exe
+C:\2020.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/PoNG_Games/AckNack_Pam
+C:/Projects/AckNack_Pam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55316
-Successfully changed project path to: D:/PoNG_Games/AckNack_Pam
-D:/PoNG_Games/AckNack_Pam
+64249
+Successfully changed project path to: C:/Projects/AckNack_Pam
+C:/Projects/AckNack_Pam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path D:/Program Files (x86)/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/PoNG_Games/AckNack_Pam/Assets
+[Subsystems] Discovering subsystems at path C:/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/AckNack_Pam/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Renderer: NVIDIA GeForce RTX 2070 Super (ID=0x1e91)
     Vendor:   
-    VRAM:     16081 MB
-    Driver:   27.20.22001.14011
+    VRAM:     8011 MB
+    Driver:   27.21.14.5687
 Initialize mono
-Mono path[0] = 'D:/Program Files (x86)/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files (x86)/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files (x86)/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Mono path[0] = 'C:/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files (x86)/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files (x86)/2020.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Program Files (x86)/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Program Files (x86)/2020.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: D:/Program Files (x86)/2020.3.9f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.001694 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003584 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 18.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
+- Completed reload, in  0.967 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000946 seconds.
+Registered in 0.001150 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
+- Completed reload, in  0.688 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1153 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 58.9 MB.
+Unloading 1150 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.7 MB.
+System memory in use after: 58.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 1.401300 ms (FindLiveObjects: 0.115100 ms CreateObjectMapping: 0.024700 ms MarkObjects: 1.199200 ms  DeleteObjects: 0.061500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Script
-  artifactKey: Guid(c466ea50cd2e70348a38228d71c54228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(c466ea50cd2e70348a38228d71c54228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2985f4bb464635a68bae70a2de27f25') in 0.003226 seconds
-  Import took 0.005378 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 1.547300 ms (FindLiveObjects: 0.114400 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.345100 ms  DeleteObjects: 0.056600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.232306 seconds.
-  path: Assets/Script/DragDrop.cs
-  artifactKey: Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/DragDrop.cs using Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8421b68ff0b0fc6227d4fecd767a2d23') in 0.017885 seconds
-  Import took 0.019816 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001157 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.347000 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.025700 ms MarkObjects: 1.154000 ms  DeleteObjects: 0.039400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.352800 ms (FindLiveObjects: 0.120700 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.157200 ms  DeleteObjects: 0.045700 ms)
+  path: Assets/Scenes/UI
+  artifactKey: Guid(52e2204480766ae4583fa2f247d2441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UI using Guid(52e2204480766ae4583fa2f247d2441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc5117ae48e177e6c2b51fa43f6db12') in 0.004161 seconds
+  Import took 0.005537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 914.539035 seconds.
-  path: Assets/Script/DragDrop.cs
-  artifactKey: Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/DragDrop.cs using Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a943aadfdb95f91c021574416b80a1c') in 0.003153 seconds
-  Import took 0.004632 seconds .
+  Time since last request: 11.400591 seconds.
+  path: Assets/Scenes/Utilities
+  artifactKey: Guid(88d12786f3ced224eb377dfb5f6130b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Utilities using Guid(88d12786f3ced224eb377dfb5f6130b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6c03530fe1d7dcd90671b4128113e1') in 0.002646 seconds
+  Import took 0.004393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 539.015557 seconds.
+  path: Assets/Scenes/Utilities/LevelTemplate.unity
+  artifactKey: Guid(aa8b2e5a70acb6042b075ed5f4d8753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Utilities/LevelTemplate.unity using Guid(aa8b2e5a70acb6042b075ed5f4d8753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5882851326060693d7f172052fb963') in 0.010299 seconds
+  Import took 0.013135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Scenes/Utilities/LevelTemplate.unity
+  artifactKey: Guid(aa8b2e5a70acb6042b075ed5f4d8753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Utilities/LevelTemplate.unity using Guid(aa8b2e5a70acb6042b075ed5f4d8753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5882851326060693d7f172052fb963') in 0.002259 seconds
+  Import took 0.004508 seconds .
+
+========================================================================
+Received Prepare
+Switching build target platform(20) subTarget(589825) extendedPlatform(0) -> platform(20) subTarget(524289) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.9 MB.
+System memory in use after: 36.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 1.915800 ms (FindLiveObjects: 0.100800 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.749400 ms  DeleteObjects: 0.035600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 20, subtarget 524289, extendedPlatform 0 -> platform 20, subtarget 589825, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2304
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.9 MB.
+System memory in use after: 36.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 1.930800 ms (FindLiveObjects: 0.119200 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.720200 ms  DeleteObjects: 0.035800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000869 seconds.
+Registered in 0.001298 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.553 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.414700 ms (FindLiveObjects: 0.117700 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.218000 ms  DeleteObjects: 0.047200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.550 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.417300 ms (FindLiveObjects: 0.114600 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.230100 ms  DeleteObjects: 0.045400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.541 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.336300 ms (FindLiveObjects: 0.113400 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.167300 ms  DeleteObjects: 0.028200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000742 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.561 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.275600 ms (FindLiveObjects: 0.110000 ms CreateObjectMapping: 0.024600 ms MarkObjects: 1.109400 ms  DeleteObjects: 0.031100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000718 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.453100 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.264500 ms  DeleteObjects: 0.035600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3450.376801 seconds.
-  path: Assets/Script/DragDrop.cs
-  artifactKey: Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/DragDrop.cs using Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8367880eebb5a5f5b67a0d2bb44c7527') in 0.002984 seconds
-  Import took 0.004359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.919355 seconds.
-  path: Assets/Script/DragDrop.cs
-  artifactKey: Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/DragDrop.cs using Guid(b1d4119b1a1f6e5499a59cd69ad5aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8367880eebb5a5f5b67a0d2bb44c7527') in 0.001471 seconds
-  Import took 0.002926 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000740 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.566 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.416000 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.218100 ms  DeleteObjects: 0.043400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000737 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.542 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 60.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1636.
-Total: 1.393900 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.218700 ms  DeleteObjects: 0.043600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.473300 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.250600 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3080.815703 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushesDropdown.cs
+  artifactKey: Guid(e61b787c9f6984746a82ecf444056814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushesDropdown.cs using Guid(e61b787c9f6984746a82ecf444056814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48abed1c0eef22eb3eab1fecf8879d21') in 0.029785 seconds
+  Import took 0.031861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.321943 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridEditorUtility.cs
+  artifactKey: Guid(b74537feff4831541a8c3bf81913649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridEditorUtility.cs using Guid(b74537feff4831541a8c3bf81913649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b53e11da6a04d67c43feaf04d932752') in 0.002627 seconds
+  Import took 0.004290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001577 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridEditorUtility.cs
+  artifactKey: Guid(b74537feff4831541a8c3bf81913649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridEditorUtility.cs using Guid(b74537feff4831541a8c3bf81913649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b53e11da6a04d67c43feaf04d932752') in 0.002376 seconds
+  Import took 0.003920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584870 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs
+  artifactKey: Guid(384ea3a769d6ffd44bcc7f03793e3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs using Guid(384ea3a769d6ffd44bcc7f03793e3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16774ebffb6e165915f6515d7330861d') in 0.002596 seconds
+  Import took 0.004186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs
+  artifactKey: Guid(384ea3a769d6ffd44bcc7f03793e3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs using Guid(384ea3a769d6ffd44bcc7f03793e3adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16774ebffb6e165915f6515d7330861d') in 0.002275 seconds
+  Import took 0.003893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.886069 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/TilemapPrefabStageHelper.cs
+  artifactKey: Guid(bd1051621083e784fb548003ae41bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/TilemapPrefabStageHelper.cs using Guid(bd1051621083e784fb548003ae41bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10d5a580cf4a5f12bda35a0bc2b0e3') in 0.002716 seconds
+  Import took 0.004243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/TilemapPrefabStageHelper.cs
+  artifactKey: Guid(bd1051621083e784fb548003ae41bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/TilemapPrefabStageHelper.cs using Guid(bd1051621083e784fb548003ae41bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10d5a580cf4a5f12bda35a0bc2b0e3') in 0.002216 seconds
+  Import took 0.003653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.487253 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/TileUtility.cs
+  artifactKey: Guid(c7e47ae35297a95488555fe429032567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/TileUtility.cs using Guid(c7e47ae35297a95488555fe429032567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc19909e6249cc17e567149b3173ce31') in 0.003351 seconds
+  Import took 0.005111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833627 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86df9f85098986b5c3bc9f164a1f4748') in 0.008267 seconds
+  Import took 0.009818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001506 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86df9f85098986b5c3bc9f164a1f4748') in 0.002034 seconds
+  Import took 0.003862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.555008 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/AssemblyInfo.cs
+  artifactKey: Guid(b870da3ede4ee144d8631c9ef0a3a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/AssemblyInfo.cs using Guid(b870da3ede4ee144d8631c9ef0a3a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c91c260a9231493f1df70a0f830ce9b') in 0.003363 seconds
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.378096 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushEditorBase.cs
+  artifactKey: Guid(97de1f11b5a5dbf41baa1b0bc8ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushEditorBase.cs using Guid(97de1f11b5a5dbf41baa1b0bc8ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e668d3754b1d24771625346722c99db') in 0.002618 seconds
+  Import took 0.004685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushEditorBase.cs
+  artifactKey: Guid(97de1f11b5a5dbf41baa1b0bc8ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushEditorBase.cs using Guid(97de1f11b5a5dbf41baa1b0bc8ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e668d3754b1d24771625346722c99db') in 0.002165 seconds
+  Import took 0.003770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.526923 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushEditor.cs
+  artifactKey: Guid(c55f8ee59e712524682edba7c818eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushEditor.cs using Guid(c55f8ee59e712524682edba7c818eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0693c9ab3a96757a7c54a6e53092fc6') in 0.002045 seconds
+  Import took 0.003544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushEditor.cs
+  artifactKey: Guid(c55f8ee59e712524682edba7c818eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushEditor.cs using Guid(c55f8ee59e712524682edba7c818eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0693c9ab3a96757a7c54a6e53092fc6') in 0.002151 seconds
+  Import took 0.003700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752151 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrush.cs
+  artifactKey: Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrush.cs using Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f34e1adca1475dbfee173d635ff77b') in 0.002739 seconds
+  Import took 0.004485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrush.cs
+  artifactKey: Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrush.cs using Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f34e1adca1475dbfee173d635ff77b') in 0.002388 seconds
+  Import took 0.003910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.485910 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs
+  artifactKey: Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs using Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087fdb7866781e7bcaa99db334cca42') in 0.002540 seconds
+  Import took 0.004035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.427160 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu
+  artifactKey: Guid(b294a6b01c40240e1b1677cd56223441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu using Guid(b294a6b01c40240e1b1677cd56223441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7db05416d9a02fbd6a24e777fd5997') in 0.002704 seconds
+  Import took 0.004690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.603979 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs
+  artifactKey: Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs using Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70754148038dc5e3d3114be671ac5a3a') in 0.002157 seconds
+  Import took 0.003702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002537 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs
+  artifactKey: Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs using Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70754148038dc5e3d3114be671ac5a3a') in 0.002194 seconds
+  Import took 0.003898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.517679 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs
+  artifactKey: Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs using Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347f9bfb1a52ab08897591a0dec6b98') in 0.002079 seconds
+  Import took 0.004173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001364 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs
+  artifactKey: Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs using Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347f9bfb1a52ab08897591a0dec6b98') in 0.002270 seconds
+  Import took 0.004029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.051331 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/READ ME
+  artifactKey: Guid(0b4f8bb1622ab0d4bb5853dd76db3c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/READ ME using Guid(0b4f8bb1622ab0d4bb5853dd76db3c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3f1ea3070bd0f4b902405a5987e6a5') in 0.003562 seconds
+  Import took 0.005169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.319143 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf
+  artifactKey: Guid(42b9aba9b0bd213448485e2f3fb868e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf using Guid(42b9aba9b0bd213448485e2f3fb868e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7e470ecb5a330eeabd697feb1bc9d') in 0.026577 seconds
+  Import took 0.028193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2731.027449 seconds.
+  path: Assets/NodeMap/Editor
+  artifactKey: Guid(4e9ce005bd9ce4a4284e7b3a5f1cf407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Editor using Guid(4e9ce005bd9ce4a4284e7b3a5f1cf407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6c0cf1ab091910259f2379b59df9ea') in 0.003028 seconds
+  Import took 0.007590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495386 seconds.
+  path: Assets/NodeMap/Materials
+  artifactKey: Guid(2d0cf117f1eb00a448cfafb6e19ac5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Materials using Guid(2d0cf117f1eb00a448cfafb6e19ac5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aab31051e970df9c2f7d1f766cc86a7') in 0.002640 seconds
+  Import took 0.004242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.386454 seconds.
+  path: Assets/NodeMap/Models/Node-Village.fbx
+  artifactKey: Guid(5bd1c38fa9def4323a14c6e066aa7630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Node-Village.fbx using Guid(5bd1c38fa9def4323a14c6e066aa7630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026e7126fdac3f264fc9220c7ce5e56') in 0.130922 seconds
+  Import took 0.132856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945231 seconds.
+  path: Assets/NodeMap/Models/Node-Square.fbx
+  artifactKey: Guid(6d687893f6606461cb0a44305ae98953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Node-Square.fbx using Guid(6d687893f6606461cb0a44305ae98953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a9d8300362ac881f68562a32f1b87c') in 0.011802 seconds
+  Import took 0.014145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.481796 seconds.
+  path: Assets/NodeMap/Models/Node-Sphere.fbx
+  artifactKey: Guid(5c0282978aa1940aa871b4df0a5a9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Node-Sphere.fbx using Guid(5c0282978aa1940aa871b4df0a5a9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119a98bd69f1539790b943f4b3c30a74') in 0.011447 seconds
+  Import took 0.013366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.136774 seconds.
+  path: Assets/NodeMap/Models/Node-Disc.fbx
+  artifactKey: Guid(a90dd20aa7c89429191678f947bd5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Node-Disc.fbx using Guid(a90dd20aa7c89429191678f947bd5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37776800db45763e9717d5c44c84065b') in 0.012885 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.689525 seconds.
+  path: Assets/NodeMap/Models/Node-City.fbx
+  artifactKey: Guid(c509dd322be7d4087a3c7bbf9dab867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Node-City.fbx using Guid(c509dd322be7d4087a3c7bbf9dab867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707b078003f94f979f65003d3d973b4') in 0.011005 seconds
+  Import took 0.013032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194855 seconds.
+  path: Assets/NodeMap/Models/Marker-X.fbx
+  artifactKey: Guid(a03769059fa994a1499b879f7616eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Marker-X.fbx using Guid(a03769059fa994a1499b879f7616eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c606e6cf36281a8a9afd0d94793129c3') in 0.011586 seconds
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.700518 seconds.
+  path: Assets/NodeMap/Models/Marker-Sphere.fbx
+  artifactKey: Guid(1a92d1da0dcc94f7490994c9b1de405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Marker-Sphere.fbx using Guid(1a92d1da0dcc94f7490994c9b1de405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c152923c7935cf765b866ac1147cda') in 0.011628 seconds
+  Import took 0.013888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551598 seconds.
+  path: Assets/NodeMap/Models/Marker-OneWay.fbx
+  artifactKey: Guid(8ea6f26328a914cd2b9329496e53a529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Marker-OneWay.fbx using Guid(8ea6f26328a914cd2b9329496e53a529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf703fa575e4d3b87ba9080177271057') in 0.012435 seconds
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.386698 seconds.
+  path: Assets/NodeMap/Models/Marker-Disc.fbx
+  artifactKey: Guid(019e20984703049f187d8e809abc98e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Marker-Disc.fbx using Guid(019e20984703049f187d8e809abc98e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400d7d62e81093c351fa9843cb848af2') in 0.010984 seconds
+  Import took 0.012906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801142 seconds.
+  path: Assets/NodeMap/Models/Marker-Dash.fbx
+  artifactKey: Guid(4648cf0c029b2437dbf4d9ab38b3b874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Marker-Dash.fbx using Guid(4648cf0c029b2437dbf4d9ab38b3b874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834635bc42a22ddb0bb6478379817e7') in 0.011241 seconds
+  Import took 0.013916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546654 seconds.
+  path: Assets/NodeMap/Models/Agent.fbx
+  artifactKey: Guid(603d0d7b2000a49fc863fbfeca787202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Agent.fbx using Guid(603d0d7b2000a49fc863fbfeca787202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289d65ea4fb9d7b136923e428a69f918') in 0.011179 seconds
+  Import took 0.013846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.646084 seconds.
+  path: Assets/NodeMap/Models/Materials
+  artifactKey: Guid(0de5c4e6d2a80448c92224ddb13b8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Models/Materials using Guid(0de5c4e6d2a80448c92224ddb13b8acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e2aae6d18f8d4303017190f7b02ac6') in 0.002357 seconds
+  Import took 0.004178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.251744 seconds.
+  path: Assets/NodeMap/Demo/Materials
+  artifactKey: Guid(a8cbbf720873c4f3aa3f4b6500816670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Demo/Materials using Guid(a8cbbf720873c4f3aa3f4b6500816670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b91c873376e33688d2d7e8330d0f91') in 0.003617 seconds
+  Import took 0.005288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.587980 seconds.
+  path: Assets/NodeMap/Demo/Scripts/AgentControls.cs
+  artifactKey: Guid(8d3c712eeb104408f9fa0b304a932b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NodeMap/Demo/Scripts/AgentControls.cs using Guid(8d3c712eeb104408f9fa0b304a932b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c7936ae723fe37bfe44849129fbfb9') in 0.002634 seconds
+  Import took 0.004544 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

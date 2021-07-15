@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618794899383298
-    m_Hash: 2305556755
+      ticks: 637619594616636236
+    m_Hash: 1165583323
   m_LockFileStatus:
     m_FilePath: C:/Projects/AckNack_Pam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618794899449571
-    m_Hash: 787656919
+      ticks: 637619594616641333
+    m_Hash: 1001834540
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
