@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Utilities/LevelTemplate.unity
+- path: Assets/Scenes/DavidTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
